@@ -1,0 +1,238 @@
+## intent:affirm
+- uh yes that sounds probable
+- correct
+- hmm makes sense
+- sounds logical yes
+- makes sense
+- thats logical i think
+- alright
+- yeah
+- yes thats alright
+- yes
+- um yes
+- hm yes okay
+- yes okay
+- okay yes
+- yes yes
+- right
+- yea
+- yea exactly
+- yes exactly
+- yes right
+- yes thats correct
+- yup yup
+- alright makes sense yes
+- yea thank you good bye
+- yes i will do that
+- yes i will try my best
+- okay i understand yes
+- right on good bye peace
+- i love that
+- yes i understand yes
+- yes i understand
+
+## intent:get_diagnose
+- can you help with my diagnose?
+- can you help me?
+- I don't know what is wrong with me.
+- I am feeling sick.
+- I dont feel well.
+- can you give me a diagnose?
+- what could my diagnose be?
+- do you know what is wrong with me?
+- i need to be diagnosed.
+- can you give me a diagnose?
+- can you tell me what is wrong with me?
+- how sick am I?
+- i need help for my diagnose
+- i am sick, but dont know from what
+- can you tell me what i am sick from
+- what are my results
+- what is my diagnoses
+
+## intent:make_appointment
+- i want to make an appointment
+- i want to make an appointment on the [25.03](date) at [15pm](time)
+- i want to make an appointment for [15 March](date) around [2pm](time)
+- can i make an appointment
+- i want to see a doctor
+- i want to go to a clinic
+- i want to go to a pharmacy
+- is there a pharmacy nearby
+- when is it available?
+- is it free
+- when will it be available
+- can you tell me when is there a free time slot
+- what time would be better
+- what time would be appropriate
+- what time is free
+- when will there be appointments
+- when are the appointments going to be available
+- what would be a free time slot
+- can i make an appointment on the [10th of Feb](date)
+- is the [23.01](date) free for an appointment
+- i want to make an appointment for [10:30](time)
+
+## intent:deny
+- no
+- no thanks
+- no thank you good bye
+- no thank you
+- uh no
+- do you have something else?
+- can it be something else?
+- do you have any other idea?
+- no this does not work for me
+- this does not apply to me
+- sounds highly improbable
+- not true
+- not correct
+- thats not correct
+- thats not right
+- not right
+- uhm no
+- uhh no
+
+## intent:greet
+- hi there
+- hello there
+- hey
+- hi
+- hey bot
+- good morning
+- goodmorning
+- hello
+- good evening
+- good afternoon
+- good evening
+- morning
+- good afternoon
+- heyo
+- hallo
+- hay
+- hii
+- good day
+- ello
+- what is up?
+- whats up?
+- afternoon
+
+## intent:inform
+- I am [Dimitar](contact_name)
+- on [28 march](date)
+- at [12 pm](time)
+- on [28 may](date)
+- at [9 am](time)
+- on [28 may](date) at [9 am](time)
+- I am [25](contact_age) years old.
+- i am [35](contact_age)
+- im [17](contact_age) yo
+- im almost [25](contact_age)
+- im [33](contact_age) years old.
+- my phone number is [+4915171244938](contact_phone)
+- you can call me at [0015141289399](contact_phone)
+- you can reach me at [35989853448](contact_phone)
+- call me at [9239130290](contact_phone)
+- my number is [88815131588](contact_phone)
+- I am feeling [chills](symptom3)
+- I have [fever](symptom3)
+- I have a [headache](symptom3)
+- I am having a [fever](symptom3)
+- I am in [fatigue](symptom1)
+- I am a [bloating](symptom1) and [sweating](symptom2)
+- i have a [sore throat](symptom1)
+- i have a high [fever](symptom1)
+- my leg is [itchy](symptom1)
+- I have a [sore throat](symptom1)
+- i have a [loose stools](symptom3)
+- i have a [abdominal pain](symptom2)
+- i am having a [loose stools](symptom2)
+- my [stomach aches](symptom2)
+- I have a [runny nose](symptom2)
+- i have a [headache](symptom2) and a [fever](symptom3)
+- Im feeling [fatigue](symptom2).
+- i am a [male](contact_gender)
+- my name is [utsav](contact_name)
+- i am a [female](contact_gender)
+- i am a [woman](contact_gender)
+- i am a [man](contact_gender)
+- i am a [girl](contact_gender)
+- i am [Daniel](contact_name)
+- my name is [Peter](contact_name)
+- my name is [John](contact_name), im [41](contact_age) years old and currently have [back pain](symptom2)
+- hi im [Assaf](contact_name)
+- i live in [Paderborn](contact_location)
+- i am in [Aachen](contact_location)
+- i am from [Cologne](contact_location)
+- i come from [Germany](contact_location)
+
+## intent:request_info
+- do you have their adress
+- do you have their phone number
+- can i have their phone number
+- what is the phone number of the hospital
+- what is their adress
+- may i have the address of the pharmacy
+- whats their address
+- do you have their number
+- give me their number
+- give me the adress
+- give me the number
+- whats their phone
+- do you have its address
+- may i have the phone number of the doctor
+- what is their phone number
+- give me their address
+- can i have their adress
+- what is the address of the clinic
+- what is the name of the clinic
+- what is the status
+
+## intent:thankyou
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you good bye
+- you rock
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- thank you good bye
+- thank you goodbye
+- okay thank you goodbye
+- uh thank you good bye
+- thank you goodbye
+- thank you
+- okay thank you
+- thanks goodbye
+- ah thank you goodbye
+- thank you
+- thank you good bye
+- thanks
+- thank you goodbye
+- uh okay thank you good bye
+- thank you bye
+- um okay thank you good bye
+
+## intent:search_institution
+- Can you look for a [hospital](institution_type) near me?
+- Find me a [hospital](institution_type) near me?
+- Do you know any [hospital](institution_type) near me?
+- Which is the nearest [hospital](institution_type)?
+- Suggest me a good [pharmacy](institution_type).
+- I need to look for a nearby [pharmacy](institution_type).
+- Find me a good [pharmacy](institution_type).
+- Tell me the nearest [pharmacy](institution_type).
+- I need to see a Doctor. Suggest me one.
+- I am looking for a [doctor](institution_type).
+- Is there a [clinic](institution_type) near me?
+- Where can I find a [clinic](institution_type) in my city?
+- Are there any [clinics](institution_type) around me?
+- Are there any [doctors](institution_type) around me?
+- Are there any [hospitals](institution_type) around me?
+- Are there any [pharmacies](institution_type) around me?
+- I am looking for a [clinic](institution_type) somewhere here.
+- I am looking for a [doctor](institution_type) somewhere here.
+- Is there a [pharmacy](institution_type) in this city?
+- Is there a [clinic](institution_type) in this city?
+- Is there a [hospital](institution_type) in this city?
+- Is there a [pharmacy](institution_type) in this city?

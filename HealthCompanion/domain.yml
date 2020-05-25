@@ -1,0 +1,215 @@
+--- 
+actions: 
+  - action_search_institution
+  - action_make_appointment
+  - action_analyse_symptoms
+  - action_greet_user
+entities: 
+  - contact_location
+  - contact_name
+  - contact_age
+  - contact_phone
+  - contact_gender
+  - date
+  - time
+  - symptom1
+  - symptom2
+  - symptom3
+  - institution_type
+  - institution_address
+  - institution_phone
+  - institution_name
+  - appointment_status
+  - diagnosis_results
+  - greeting
+intents: 
+  - greet
+  - affirm
+  - deny
+  - inform
+  - thankyou
+  - request_info
+  - make_appointment
+  - get_diagnose
+  - search_institution
+responses: 
+  utter_ack_findalternatives: 
+    - 
+      text: ok let me see what else there is.
+    - 
+      text: May I interest you in some other alternatives??
+  utter_ack_makeappointment: 
+    - 
+      text: "Making an appointment on {date} at {time} at {institution_name}. The address is {institution_address}."
+  utter_ack_search: 
+    - 
+      text: Ok let me see what I can find
+    - 
+      text: Let me do my search and see what I find.
+    - 
+      text: Be right back with some relevant search resuts.
+  utter_ask_age: 
+    - 
+      text: How old are you?
+    - 
+      text: What should your age be?
+    - 
+      text: Can you tell me your age?
+    - 
+      text: How old were you, again?
+    - 
+      text: Maybe I forgot your age. How old were you again?
+  utter_ask_symptoms: 
+    - 
+      text: What are your symptoms?
+    - 
+      text: What kind of symptoms are apparent?
+    - 
+      text: Can you provide 1 to 3 symptoms for your condition?
+  utter_ask_date:
+    - 
+      text: What date?
+  utter_ask_time:
+    -
+      text: At what time?
+  utter_ask_details: 
+    - 
+      text: Can you tell me your details?
+    - 
+      text: Please tell me you name, phone number, age and gender.
+    - 
+      text: Please share your details.
+  utter_ask_howcanhelp: 
+    - 
+      text: how can I help you?
+    - 
+      text: How can I be of your assistance?
+    - 
+      text: With what can I help you today?
+    - 
+      text: Do you need any help from me?
+    - 
+      text: Please let me know how can I help you?
+  utter_ask_institution: 
+    - 
+      text: what kind of medical institution are you looking for?
+    - 
+      text: Are you looking for a Hospital or Clinic or something else?
+    - 
+      text: Where do you wish to go to - Hospital or Clinic or Pharmacy?
+    - 
+      text: To be specific - Which type of medical institution?
+  utter_ask_location: 
+    - 
+      text: Where are you?
+    - 
+      text: Where are you exactly?
+    - 
+      text: At what location are you?
+  utter_ask_gender:
+    -
+      text: Are you a male or a female?
+  utter_ask_moreupdates: 
+    - 
+      text: "If you'd like to modify anything else, please tell me what. This is what I currently have: {institution_address}, {institution_name}, {time} on {date}."
+  utter_ask_name: 
+    - 
+      text: What is your name?
+    - 
+      text: Whats your name?
+    - 
+      text: Can you give me your name?
+    - 
+      text: What should I call you?
+    - 
+      text: Can you please tell me your name?
+    - 
+      text: Will you care to tell me your name?
+  utter_ask_phone_number: 
+    - 
+      text: What is your phone number?
+    - 
+      text: Can you give me your phone number?
+    - 
+      text: On which number can we reach you?
+    - 
+      text: Please provide a phone number to reach you.
+    - 
+      text: Will you care to provide a working phone number to contact you?
+  utter_default: 
+    - 
+      text: I am your Health Companion and I love you!
+    - 
+      text: This is your Health Companion and I am happy to help!
+    - 
+      text: Isn't it great to have me at your assistance. How can I help you?
+  utter_give_info_institution: 
+    - 
+      text: "It's a {institution_type}, the address is {institution_address}, and their phone number is {institution_phone} and it is {appointment_status}"
+  utter_goodbye: 
+    - 
+      text: goodbye!
+    - 
+      text: Bye-bye
+    - 
+      text: See you later!
+    - 
+      text: Ciao Ciao!
+    - 
+      text: Gotta go!
+  utter_greet: 
+    - 
+      text: Hey there!
+    - 
+      text: Hola hola!
+    - 
+      text: Hi there. Good day!
+    - 
+      text: Hello. I hope you are doing great today.
+  utter_on_it: 
+    - 
+      text: I'm on it
+    - 
+      text: Doing it right now.
+    - 
+      text: I will do this right away!
+    - 
+      text: I am performing the requested information at the moment. Please be patient.
+session_config: 
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots: 
+  appointment_status: 
+    type: text
+  contact_age: 
+    type: text
+  contact_gender: 
+    type: text
+  contact_location: 
+    type: text
+  contact_name: 
+    type: text
+  contact_phone: 
+    type: text
+  date: 
+    type: text
+  diagnosis_results: 
+    type: text
+  greeting: 
+    type: text
+  institution_address: 
+    type: text
+  institution_name: 
+    type: text
+  institution_phone: 
+    type: text
+  institution_type: 
+    type: text
+  symptom1: 
+    type: text
+  symptom2: 
+    type: text
+  symptom3: 
+    type: text
+  time: 
+    type: text

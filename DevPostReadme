@@ -1,0 +1,24 @@
+
+Inspiration
+
+Inspiration is partly from the challenges of the Freiburg Hackathon 2020, as well as from our own values and desires.
+What it does
+
+Provides solutions for appointments management, some basic disease diagnostics and treatment suggestion, chatbot for the communication between users and services/institutions.
+
+Health Companion Web App and Mobile App Functionalities
+
+HealthCompanion aims at optimizing the journey of an individual from the point of time any user would like to seek medical assistance. This is supported by an informative decision-making process, through a variety of functions including a chatbot, an appointment manager, modes of transportation, etc. This application targets time optimization by helping users with early diagnosis and choosing the right professional and helps accommodate patients in vacant institutions. This is achieved by connecting individuals with health care institutes and adjacent services to ease communication. The process starts by the user communicating the symptoms and concerns to the associated Personal Companion which in our case is a chatbot. Analysis of the information will recommend the best advice based on the criticality of the case. Nevertheless, if the user opts to visit a hospital, the app will start by providing information to help commute to the hospital. Through the usage of a QR code that is generated, the required patient' information can be recorded along with this the QR code helps to access the necessary services provided by the hospital to limit personal contact between the patient and health care staff.
+
+Design Prototype: To showcase the entire application, we have designed a prototype using Adobe XD, it includes a web-based application and a mobile application. The prototype helps better vizualise the application with working components. Adobe XD provides cloud storage and backing up of files which played a key role to design the prototype by enabling better collaboration with the team members.
+
+Make an appointment functionality: The user can make appointments using this functionality that is built using Java, created using java servlets and hibernate as the middle ware and MySQL as the database, the whole functionality was built using core java, we also did unit testing in order to test the functionality of the component. The make an appointment function helps the user to make appointments with doctors located in his/her vicinity, it provides a dashboard which prompts the user with upcoming appointments, it also records guardian information for users. It shows the availability of doctors.
+
+Chatbot Functionality
+
+The chatbot is build on Python with the Rasa Open Source machine learning framework. It is NLU-based. It can "understand messages, hold conversations, and connect to messaging channels and APIs." Rasa The bot can distinguish between time, date, and type of health institution. It can pick up names and contact details such as age, gender, location, and phone number of the user. The bot can also distinguish between symptoms. With these informations it can perform actions such as Make Appointment , Search Institution, and Analyse Symptoms . The bot can provide information on the details of a made appointment. Such include the address, name and type of institution, date and time which correspond to that particular appointment. With the Analyse Symptoms functionality, it can run for example a simple Python ML Classification code on the basis of a combination between Gaussian Naive-Bayes, Random Forrest and Decision Tree Classifiers, similar to this project.
+
+Further improvement on the Chatbot would include adding more intents, example intent messages, more actions, more symptoms, and story samples - all of which are required for a good functioning bot. Make Appointment action needs to be properly adapted to the FHIR Appointment Architecture and the API of the GE Edison Digital Solutions for Scheduling (e.g. Appointment.status, Appointment.date, etc.). Analyse Symptoms action needs to be fully integrated and improvement for better symptom analyzing APIs or ML Frameworks would be beneficial.
+How We built it
+
+Python, Java, Adobe XD, GE Edison Digital Solutions, and others.
